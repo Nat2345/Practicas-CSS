@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+<body>
+    <center>
+        <a href="index.html">REGRESAR</a>
+        <h1>GRID</h1>
+        <hr>
+        <br>
+        <br>
+
+        <table border="1">
+            <tbody>
+                <th bgcolor="pink">TEORIA</th>
+                <th bgcolor="pink">EJEMPLOS</th>
+                <th bgcolor="pink">VIDEO</th>
+            </tbody>
+
+            <tbody>
+                <th>
+                    <p>CSS Grid es un sistema de diseño que permite organizar elementos utilizando 
+                        filas y columnas. Es muy util para crear estructuras ordenadas, como galerias
+                         de imagenes, menus y diferentes secciones de una pagina</p>
+                </th>
+                <th>
+<p><b>1. Display Grid:</b> activa el sistema Grid</p>
+<div style="display: grid;">
+    <div style="background: lightblue; padding: 20px;">elemento</div>
+</div>
+
+<p><b>2. Dos columnas:</b> permite dividir el espacio en dos columnas</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <div style="background: lightblue; padding: 20px;">columna 1</div>
+    <div style="background: lightgreen; padding: 20px;">columna 2</div>
+</div>
+
+<p><b>3. Tres columnas:</b> permite crear tres columnas iguales</p>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+    <div style="background: pink; padding: 20px;">1</div>
+    <div style="background: yellow; padding: 20px;">2</div>
+    <div style="background: orange; padding: 20px;">3</div>
+</div>
+
+<p><b>4. Gap:</b> sirve para agregar espacio entre las filas y columnas</p>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+    <div style="background: lightblue; padding: 20px;">A</div>
+    <div style="background: lightgreen; padding: 20px;">B</div>
+</div>
+
+<p><b>5. Filas:</b> permite establecer el tamaño de las filas</p>
+<div style="display: grid; grid-template-rows: 80px 80px; gap: 10px;">
+    <div style="background: pink;">fila 1</div>
+    <div style="background: orange;">fila 2</div>
+</div></p>
+                </th>
+                <th>
+                    <p>
+                        <video width="300px" controls>
+    <source src="videos/8.mp4">
+</video>
+                    </p>
+                </th>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>

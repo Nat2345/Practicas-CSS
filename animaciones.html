@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+.mover {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    animation: mover 3s infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+.girar {
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: girar 2s infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.crecer {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: crecer 2s infinite alternate;
+}
+
+@keyframes crecer {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.cambiar {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    animation: cambiar 3s infinite alternate;
+}
+
+@keyframes cambiar {
+    from {
+        background: orange;
+    }
+    to {
+        background: purple;
+    }
+}
+
+</style>
+    <title>ANIMACIONES</title>
+</head>
+<body>
+    <center>
+        <a href="index.html">REGRESAR</a>
+        <h1>ANIMACIONES EN CSS</h1>
+        <hr>
+        <br>
+        <br>
+
+        <table border="1">
+            <tbody>
+                <th bgcolor="pink">TEORIA</th>
+                <th bgcolor="pink">EJEMPLOS</th>
+                <th bgcolor="pink">VIDEO</th>
+            </tbody>
+
+            <tbody>
+                <th>
+                    <p>Las animaciones en CSS permiten hacer que los elementos
+                         cambien de apariencia o posición de manera progresiva.
+                          Se utilizan para crear efectos como movimientos, 
+                          cambios de tamaño, rotaciones y cambios de color</p>
+                </th>
+                <th>
+<p><b>1. Movimiento:</b> sirve para mover un elemento de un lugar a otro</p>
+<div class="mover"></div>
+
+<br><br>
+
+<p><b>2. Rotacion:</b> sirve para hacer que un elemento gire</p>
+<div class="girar"></div>
+
+<br><br>
+
+<p><b>3. Cambio de tamaño:</b> sirve para hacer que un elemento aumente o disminuya</p>
+<div class="crecer"></div>
+
+<br><br>
+
+<p><b>4. Cambio de color:</b> sirve para cambiar el color de un elemento durante la animacion</p>
+<div class="cambiar"></div>
+
+<br><br>
+
+<p><b>5. Repeticion:</b> sirve para hacer que una animacion se repita varias veces</p>
+<div class="mover"></div></p>
+                </th>
+                <th>
+                    <p>
+                        <video width="300px" controls>
+    <source src="videos/9.mp4">
+</video>
+                    </p>
+                </th>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
